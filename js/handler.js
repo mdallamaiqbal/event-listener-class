@@ -8,3 +8,12 @@ document.getElementById('btn-login')
         const userInfoElement = document.getElementById('user-info');
         userInfoElement.innerText = 'LogIN Successful'
     })
+document.getElementById('btn-update')
+    .addEventListener('click', function () {
+        //step 2
+        const nameInput = document.getElementById('input-name');
+        const name = nameInput.value;
+        //step 3
+        const nameP = document.getElementById('name');
+        nameP.innerText = name;
+    })
